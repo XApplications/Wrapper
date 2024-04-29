@@ -120,7 +120,7 @@ Allows iFastNet to send you notifications about account suspensions, also unlock
 
 ```php
 <?php
-require_once 'api-client.php';
+require_once 'Wrapper.php';
 
 $vpClient = new VistapanelApi();
 $vpClient->setCpanelUrl('https://cpanel.example.com');
